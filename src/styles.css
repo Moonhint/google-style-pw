@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+body, a, p, span, h1, h2, h3, h4, h5, div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}

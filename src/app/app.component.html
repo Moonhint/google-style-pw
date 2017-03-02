@@ -1,3 +1,48 @@
-<h1>
-  {{title}}
-</h1>
+<nav id="nav-call-to-action">
+  <section>
+    <div class="link-hover">
+      <a routerLink="/google-resume">Google Resume</a>
+    </div>
+    <div class="share-menu">
+      <a routerLink="/google-resume"><md-icon svgIcon="menu-button"></md-icon></a>
+    </div>
+    <div class="button-blue">
+      <a routerLink="/contact">Contact</a>
+    </div>
+  </section>
+</nav>
+
+<div id="main-container">
+  <div class="the-logo">
+    <span id="logo_1">A</span>
+    <span id="logo_2">n</span>
+    <span id="logo_3">t</span>
+    <span id="logo_4">o</span>
+    <span id="logo_5">n</span>
+    <span id="logo_6">i</span>
+    <!-- <p>inspired by google</p> -->
+  </div>
+  <div class="auto-search-bar">
+    <input id="auto-seach" autofill [autofilltexts]="auto_fill_texts" type="text" name="" value="" contenteditable="yes" autofocus>
+  </div>
+  <div class="core-buttons">
+    <div class="button-grey">
+      <a routerLink="/front-end-dev">Front End Developer</a>
+    </div>
+    <div class="button-grey">
+      <a routerLink="/back-end-dev">Back End Developer</a>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+
+
+<footer>
+  <div class="">
+    <a href="#">Contact</a>
+  </div>
+  <div class="">
+    <a href="#">Legal Notice</a>
+  </div>
+</footer>
