@@ -26,18 +26,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(){
-    // this.run_auto_search_text()
+
   }
 
-  // run_auto_search_text(){
-  //   for (let i = 0; i < this.auto_fill_texts.length; i++) {
-  //     let setup_timer = function(n) {
-  //       let self = this;
-  //       setTimeout(function(){
-  //         self.auto_text = self.auto_fill_texts[n];
-  //       }, (3000 * n));
-  //     }
-  //     setup_timer.call(this, i);
-  //   }
-  // }
 }

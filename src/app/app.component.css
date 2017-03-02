@@ -71,7 +71,7 @@ footer {
   background: #f2f2f2;
   line-height: 40px;
   text-align: left;
-  min-width: 980px;
+  min-width: 100%;
 }
 
 footer div {
@@ -104,7 +104,8 @@ footer div a {
 #logo_1 {
   position: relative;
   font-family: 'Product Sans', Arial, sans-serif;
-  font-size: 82px;
+  /*font-size: 82px;*/
+  font-size: 4em;
   bottom: -1px;
   font-weight: 700;
   color: #3369E8;
@@ -112,14 +113,14 @@ footer div a {
 
 #logo_2 {
   font-family: 'Product Sans', Arial, sans-serif;
-  font-size: 68px;
+  font-size: 3.8em;
   font-weight: 700;
   color: #D50F25;
 }
 
 #logo_3 {
   font-family: 'Product Sans', Arial, sans-serif;
-  font-size: 68px;
+  font-size: 3.8em;
   font-weight: 700;
   color: #EEB211;
 }
@@ -128,21 +129,21 @@ footer div a {
   position: relative;
   bottom: -1px;
   font-family: 'Product Sans', Arial, sans-serif;
-  font-size: 68px;
+  font-size: 3.8em;
   font-weight: 700;
   color: #3369E8;
 }
 
 #logo_5 {
   font-family: 'Product Sans', Arial, sans-serif;
-  font-size: 68px;
+  font-size: 3.8em;
   font-weight: 700;
   color: #009925;
 }
 
 #logo_6 {
   font-family: 'Product Sans', Arial, sans-serif;
-  font-size: 68px;
+  font-size: 3.8em;
   font-weight: 700;
   color: #D50F25;
 }
@@ -153,7 +154,7 @@ footer div a {
   padding: 10px;
   margin: 10px;
   height: 20px;
-  width: 500px;
+  width: 50%;
   border: 1px solid #eaeaea;
   outline:none;
   border-radius: 2px;
